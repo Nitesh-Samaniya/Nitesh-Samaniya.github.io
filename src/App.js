@@ -1,5 +1,5 @@
 
-// import About from "./components/about/About";
+import About from "./components/about/About";
 import Navbar from "./components/navbar/Navbar";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      {/* <About /> */}
+      <About />
     </div>
   );
 }
