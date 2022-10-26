@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
     
-    <Box w={"100%"} bg="#0c111b" color={'#fff'} mt={'70px'} pt={'70px'} pb={'100px'}>
+    <Box name="About" w={"100%"} bg="#0c111b" color={'#fff'} mt={'70px'} pt={'70px'} pb={'100px'}>
 
     <SimpleGrid columns={[1,1,1,2]} w={['95%','90%','90%','80%',]} m="auto">
 
