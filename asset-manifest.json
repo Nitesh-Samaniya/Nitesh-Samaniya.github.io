@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.31d6cfe0.css",
-    "main.js": "/static/js/main.afca3259.js",
+    "main.js": "/static/js/main.54d5af55.js",
+    "static/media/image.gif": "/static/media/image.d4a402f4b5da5590c675.gif",
     "static/media/profile8.jpg": "/static/media/profile8.77278b11a11e4d3b9709.jpg",
     "static/media/Nitesh_Samaniya_Resume.pdf": "/static/media/Nitesh_Samaniya_Resume.c114f1c97f2f68b80d3c.pdf",
     "static/media/nodejs.jpg": "/static/media/nodejs.d014a8eebcc3ed0c454e.jpg",
@@ -16,10 +17,10 @@
     "static/media/chakra.jpg": "/static/media/chakra.22937fcd5af2100437bd.jpg",
     "static/media/typeScript.png": "/static/media/typeScript.c30f3f3610e109e285f1.png",
     "index.html": "/index.html",
-    "main.afca3259.js.map": "/static/js/main.afca3259.js.map"
+    "main.54d5af55.js.map": "/static/js/main.54d5af55.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.afca3259.js"
+    "static/js/main.54d5af55.js"
   ]
 }
