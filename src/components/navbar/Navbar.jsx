@@ -15,10 +15,10 @@ function Navbar() {
                 <Hide below='md'>
                     <Box display="flex" alignItems="center" gap={8} fontSize='17px'>
                         {/* <Box>Home</Box> */}
-                        <Box>About Me</Box>
-                        <Box>Skills</Box>
-                        <Box>Projects</Box>
-                        <Box>Contact</Box>
+                        <Box cursor={'pointer'}><Link to='About' spy={true} smooth={true}>About Me</Link></Box>
+                        <Box cursor={'pointer'}><Link to='Skill' spy={true} smooth={true}>Skills</Link></Box>
+                        <Box cursor={'pointer'}><Link to='Projects' spy={true} smooth={true}>Projects</Link></Box>
+                        <Box cursor={'pointer'}><Link to='Contact' spy={true} smooth={true}>Contact</Link></Box>
                         <Box><a href={resume} download><Button colorScheme='teal' size='xs'>Resume</Button></a></Box>
                     </Box>
                 </Hide>

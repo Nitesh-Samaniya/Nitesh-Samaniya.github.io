@@ -53,7 +53,7 @@ function Contact() {
 
   return (
     <>
-    <Box w='90%' p='50px'>
+    <Box w='90%' p='50px' name='Contact'>
         <Text fontSize={['5xl','6xl']} textAlign={'center'} fontFamily={'cursive'}>Contacts</Text>
         <SimpleGrid columns={[1,1,1,2]} gap={'80px'}>
             <Box>

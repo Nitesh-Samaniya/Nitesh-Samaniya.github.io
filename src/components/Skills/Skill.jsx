@@ -6,7 +6,7 @@ import Tools from './Tools'
 
 function Skill() {
   return (
-    <Box mb={'30px'}>
+    <Box mb={'30px'} name="Skill">
         <TechStack />
         <MiddlePart />
         <Tools />
