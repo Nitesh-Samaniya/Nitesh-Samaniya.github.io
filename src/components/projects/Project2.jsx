@@ -13,44 +13,46 @@ const slides = [img1,img2,img3,img4,img5];
 
 function Project2() {
   return (
-    <SimpleGrid boxShadow='inner' p='6' rounded='md' bg='white' columns={[1,1,1,2]} w="100%"  gap={10}>
+    <Box data-aos="zoom-in-up">
+        <SimpleGrid boxShadow='inner' p='6' rounded='md' bg='white' columns={[1,1,1,2]} w="100%"  gap={10}>
 
-        <Box>
-            <Carousel autoPlay infiniteLoop>
-                {slides.map((slide) => {
-                    return <Image src={slide} height="auto" width="800px" />;
-                })}
-            </Carousel>
-            <Text textAlign={'center'} mt={'-20px'} fontSize={'20px'} fontWeight={'medium'}>Inter Theory Website Clone</Text>
-        </Box>
+            <Box>
+                <Carousel autoPlay infiniteLoop>
+                    {slides.map((slide) => {
+                        return <Image src={slide} height="auto" width="800px" />;
+                    })}
+                </Carousel>
+                <Text textAlign={'center'} mt={'-20px'} fontSize={'20px'} fontWeight={'medium'}>Inter Theory Website Clone</Text>
+            </Box>
 
-        <Box>
-            <Text fontSize={'25px'} fontFamily={'cursive'} fontWeight={'semibold'}>About Project</Text>
-            <Text fontStyle={'oblique'} fontSize={'17px'} color={'gray'}>Intern Theory provides Online Courses to find internships for
-                students in different cities in India with top brands.
-            </Text>
+            <Box>
+                <Text fontSize={'25px'} fontFamily={'cursive'} fontWeight={'semibold'}>About Project</Text>
+                <Text fontStyle={'oblique'} fontSize={'17px'} color={'gray'}>Intern Theory provides Online Courses to find internships for
+                    students in different cities in India with top brands.
+                </Text>
 
-            <Text mt={3} fontSize={'24px'} fontFamily={'cursive'} fontWeight={'semibold'}>Tech-Stack</Text>
-            <Text fontStyle={'oblique'} fontSize={'17px'} color={'gray'}>
-                HTML | CSS | JAVASCRIPT
-            </Text>
+                <Text mt={3} fontSize={'24px'} fontFamily={'cursive'} fontWeight={'semibold'}>Tech-Stack</Text>
+                <Text fontStyle={'oblique'} fontSize={'17px'} color={'gray'}>
+                    HTML | CSS | JAVASCRIPT
+                </Text>
 
-            <Text mt={3} fontSize={'24px'} fontFamily={'cursive'} fontWeight={'semibold'}>Role</Text>
-            <Text fontStyle={'oblique'} fontSize={'17px'} color={'gray'}>A collaborative project built by a team of 6, executed in 5 days.
-                I built Login/Signup functionaity and Contact page. 
-            </Text>
+                <Text mt={3} fontSize={'24px'} fontFamily={'cursive'} fontWeight={'semibold'}>Role</Text>
+                <Text fontStyle={'oblique'} fontSize={'17px'} color={'gray'}>A collaborative project built by a team of 6, executed in 5 days.
+                    I built Login/Signup functionaity and Contact page. 
+                </Text>
 
-            <Flex mt={3} gap={8}>
-                <Button colorScheme='teal' variant={'outline'} size='sm'>
-                    <Link href='https://github.com/PankajkandpalL/Project_Intern_theory' isExternal>Source Code</Link>
-                </Button>
-                <Button colorScheme='teal' variant={'outline'} size='sm'>
-                    <Link href='https://imaginative-lebkuchen-c86683.netlify.app/' isExternal>Live</Link>
-                </Button>
-            </Flex>
+                <Flex mt={3} gap={8}>
+                    <Button colorScheme='teal' variant={'outline'} size='sm'>
+                        <Link href='https://github.com/PankajkandpalL/Project_Intern_theory' isExternal>Source Code</Link>
+                    </Button>
+                    <Button colorScheme='teal' variant={'outline'} size='sm'>
+                        <Link href='https://imaginative-lebkuchen-c86683.netlify.app/' isExternal>Live</Link>
+                    </Button>
+                </Flex>
 
-        </Box>
-    </SimpleGrid>
+            </Box>
+        </SimpleGrid>
+    </Box>
   )
 }
 

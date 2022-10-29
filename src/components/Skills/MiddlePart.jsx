@@ -1,5 +1,5 @@
 import { Box, SimpleGrid, Text, Img } from '@chakra-ui/react'
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import html from "./images/frontEnd/html.jpg";
 import css from "./images/frontEnd/css.jpg";
@@ -12,6 +12,9 @@ import express from "./images/backEnd/express.png";
 import mongodb from "./images/backEnd/mongodb.png";
 import nodejs from "./images/backEnd/nodejs.jpg";
 import redux from "./images/backEnd/redux.jpg";
+
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 
 const frontEnd = [
@@ -62,37 +65,48 @@ const backEnd = [
 
 
 function MiddlePart() {
+
+    useEffect(() => {
+        Aos.init();
+      }, [])
+
   return (
     <Box w={'90%'} m={'auto'} mt={'50px'}>
-        <SimpleGrid columns={[1,1,2]} gap={'80px'}>
-            <Box>
-                <Text mb={5} fontSize={['2xl','4xl']} textAlign={'center'} fontFamily={'cursive'}>FRONTEND SKILLS</Text>
-                <SimpleGrid columns={[2,2,2,3]}>
-                    {
-                        frontEnd.map((el)=>(
-                            <Box ml={5} mt={5} mb={'80px'}>
-                                <Img src={el.img} w={'100px'} borderRadius={'50%'} alt="tech-icon"/>
-                                <Text mt={3} ml={4} fontFamily={'fantasy'} fontSize={'xl'}>{el.title}</Text>
-                            </Box>
-                        ))
-                    }
-                </SimpleGrid>
-            </Box>
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
 
-            <Box>
-                <Text mb={5} fontSize={['2xl','4xl']} textAlign={'center'} fontFamily={'cursive'}>BACKEND SKILLS</Text>
-                <SimpleGrid columns={[2,2,2,3]}>
-                    {
-                        backEnd.map((el)=>(
-                            <Box ml={5} mt={5} mb={'80px'}>
-                                <Img src={el.img} w={'100px'} borderRadius={'50%'} alt="tech-icon"/>
-                                <Text mt={3} ml={4} fontFamily={'fantasy'} fontSize={'xl'}>{el.title}</Text>
-                            </Box>
-                        ))
-                    }
-                </SimpleGrid>
-            </Box>
-        </SimpleGrid>
+            <SimpleGrid columns={[1,1,2]} gap={'80px'}>
+                <Box>
+                    <Text mb={5} fontSize={['2xl','4xl']} textAlign={'center'} fontFamily={'cursive'}>FRONTEND SKILLS</Text>
+                    <SimpleGrid columns={[2,2,2,3]}>
+                        {
+                            frontEnd.map((el)=>(
+                                <Box ml={5} mt={5} mb={'80px'}>
+                                    <Img src={el.img} w={'100px'} borderRadius={'50%'} alt="tech-icon"/>
+                                    <Text mt={3} ml={4} fontFamily={'fantasy'} fontSize={'xl'}>{el.title}</Text>
+                                </Box>
+                            ))
+                        }
+                    </SimpleGrid>
+                </Box>
+
+                <Box>
+                    <Text mb={5} fontSize={['2xl','4xl']} textAlign={'center'} fontFamily={'cursive'}>BACKEND SKILLS</Text>
+                    <SimpleGrid columns={[2,2,2,3]}>
+                        {
+                            backEnd.map((el)=>(
+                                <Box ml={5} mt={5} mb={'80px'}>
+                                    <Img src={el.img} w={'100px'} borderRadius={'50%'} alt="tech-icon"/>
+                                    <Text mt={3} ml={4} fontFamily={'fantasy'} fontSize={'xl'}>{el.title}</Text>
+                                </Box>
+                            ))
+                        }
+                    </SimpleGrid>
+                </Box>
+            </SimpleGrid>
+        </div>
+        
     </Box>
   )
 }
