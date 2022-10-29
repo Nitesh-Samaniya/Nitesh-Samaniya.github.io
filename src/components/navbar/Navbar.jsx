@@ -17,7 +17,7 @@ function Navbar() {
                         {/* <Box>Home</Box> */}
                         <Box cursor={'pointer'}><Link to='About' spy={true} smooth={true}>About Me</Link></Box>
                         <Box cursor={'pointer'}><Link to='Skill' spy={true} smooth={true}>Skills</Link></Box>
-                        <Box cursor={'pointer'}><Link to='Projects' spy={true} smooth={true}>Projects</Link></Box>
+                        <Box cursor={'pointer'}><Link to='Project' spy={true} smooth={true}>Projects</Link></Box>
                         <Box cursor={'pointer'}><Link to='Contact' spy={true} smooth={true}>Contact</Link></Box>
                         <Box><a href={resume} download><Button colorScheme='teal' size='xs'>Resume</Button></a></Box>
                     </Box>

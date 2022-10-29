@@ -4,7 +4,7 @@ import GitHubCalendar from 'react-github-calendar'
 
 function GitStat() {
   return (
-    <Box bg="#0c111b" color={'#fff'} pt={'50px'} pb={'50px'}>
+    <Box bg="#0c111b" color={'#fff'} pt={'30px'} pb={'50px'}>
     <Text mb={'40px'} fontSize={['5xl','6xl']} textAlign={'center'} fontFamily={'cursive'}>GITHUB STATS</Text>
     <Box  width={['95%','80%','65%']} m='auto' mb={'50px'} mt={'80px'}>
     <GitHubCalendar username="Nitesh-Samaniya"  />
