@@ -1,10 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.31d6cfe0.css",
-    "main.js": "/static/js/main.2b4fa62b.js",
+    "main.css": "/static/css/main.8eb20739.css",
+    "main.js": "/static/js/main.74333701.js",
     "static/media/image.gif": "/static/media/image.d4a402f4b5da5590c675.gif",
     "static/media/profile8.jpg": "/static/media/profile8.77278b11a11e4d3b9709.jpg",
+    "static/media/1_home.png": "/static/media/1_home.23ac9d0426ad6a1472c2.png",
+    "static/media/2_headlines.png": "/static/media/2_headlines.1cdf92157106a4a15a12.png",
+    "static/media/2_course.png": "/static/media/2_course.9503ae43ecca01fd68fd.png",
+    "static/media/3_newsRead.png": "/static/media/3_newsRead.a19915fa8a61aaaabf88.png",
+    "static/media/5_contact.png": "/static/media/5_contact.64e459c09817e353b2c6.png",
+    "static/media/2_product.png": "/static/media/2_product.41f4fb549d574da08ad9.png",
     "static/media/Nitesh_Samaniya_Resume.pdf": "/static/media/Nitesh_Samaniya_Resume.c114f1c97f2f68b80d3c.pdf",
+    "static/media/3_job.png": "/static/media/3_job.0d9cbf60b90be5e93a2f.png",
+    "static/media/4_login.png": "/static/media/4_login.64ff0960033abee789ec.png",
+    "static/media/3_product_detail.png": "/static/media/3_product_detail.d6af3778ab4c8874e7ae.png",
+    "static/media/4_cart.png": "/static/media/4_cart.b2f1fc4ee83e474890ec.png",
+    "static/media/4_footer.png": "/static/media/4_footer.03abfc9fe0c2c6de1ab4.png",
     "static/media/nodejs.jpg": "/static/media/nodejs.d014a8eebcc3ed0c454e.jpg",
     "static/media/redux.jpg": "/static/media/redux.393c075e2970664559aa.jpg",
     "static/media/dsa.jpg": "/static/media/dsa.5275c4a09c53acc8fa8b.jpg",
@@ -17,10 +28,11 @@
     "static/media/chakra.jpg": "/static/media/chakra.22937fcd5af2100437bd.jpg",
     "static/media/typeScript.png": "/static/media/typeScript.c30f3f3610e109e285f1.png",
     "index.html": "/index.html",
-    "main.2b4fa62b.js.map": "/static/js/main.2b4fa62b.js.map"
+    "main.8eb20739.css.map": "/static/css/main.8eb20739.css.map",
+    "main.74333701.js.map": "/static/js/main.74333701.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.2b4fa62b.js"
+    "static/css/main.8eb20739.css",
+    "static/js/main.74333701.js"
   ]
 }
