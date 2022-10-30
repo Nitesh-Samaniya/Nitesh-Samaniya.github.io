@@ -40,7 +40,6 @@ const Drawerr = () => {
           <Text cursor={'pointer'} fontSize={'2xl'} fontFamily={'cursive'} borderBottom={'1px solid gray'} mb={3}><Link to='Skill' spy={true} smooth={true}>Skills</Link></Text>
           <Text cursor={'pointer'} fontSize={'2xl'} fontFamily={'cursive'} borderBottom={'1px solid gray'} mb={3}><Link to='Project' spy={true} smooth={true}>Projects</Link></Text>
           <Text cursor={'pointer'} fontSize={'2xl'} fontFamily={'cursive'} borderBottom={'1px solid gray'} mb={3}><Link to='Contact' spy={true} smooth={true}>Contact</Link></Text>
-          <Text cursor={'pointer'} fontSize={'2xl'} fontFamily={'cursive'} borderBottom={'1px solid gray'} mb={3}><Link to='About' spy={true} smooth={true}>About Me</Link></Text>
         </DrawerBody>
 
         <DrawerFooter h={'60px'}>

@@ -48,6 +48,9 @@ function Project2() {
                     <Button colorScheme='teal' variant={'outline'} size='sm'>
                         <Link href='https://imaginative-lebkuchen-c86683.netlify.app/' isExternal>Live</Link>
                     </Button>
+                    <Button colorScheme='teal' variant={'outline'} size='sm'>
+                        <Link href='https://drive.google.com/file/d/1ak0gAfR46aSH_XDebx-aLJ4-iNgquv3K/view?usp=sharing' isExternal>Video Presentation</Link>
+                    </Button>
                 </Flex>
 
             </Box>

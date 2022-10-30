@@ -46,9 +46,9 @@ function Project1() {
                     <Button colorScheme='teal' variant={'outline'} size='sm'>
                         <Link href='https://github.com/Nitesh-Samaniya/gusty-train-2478' isExternal>Source Code</Link>
                     </Button>
-                    {/* <Button colorScheme='teal' variant={'outline'} size='sm'>
-                        <Link href='https://imaginative-lebkuchen-c86683.netlify.app/' isExternal>Live</Link>
-                    </Button> */}
+                    <Button colorScheme='teal' variant={'outline'} size='sm'>
+                        <Link href='https://drive.google.com/file/d/1mb3JEDWppC-UEcvFv5hy2Qx5rxx8ajz5/view?usp=sharing' isExternal>Video Presentation</Link>
+                    </Button>
                 </Flex>
 
             </Box>
