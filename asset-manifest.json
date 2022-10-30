@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.31d86868.css",
-    "main.js": "/static/js/main.00d05a11.js",
+    "main.js": "/static/js/main.2d5423e0.js",
     "static/media/image.gif": "/static/media/image.d4a402f4b5da5590c675.gif",
     "static/media/profile8.jpg": "/static/media/profile8.77278b11a11e4d3b9709.jpg",
     "static/media/1_home.png": "/static/media/1_home.23ac9d0426ad6a1472c2.png",
@@ -10,7 +10,7 @@
     "static/media/3_newsRead.png": "/static/media/3_newsRead.a19915fa8a61aaaabf88.png",
     "static/media/5_contact.png": "/static/media/5_contact.64e459c09817e353b2c6.png",
     "static/media/2_product.png": "/static/media/2_product.41f4fb549d574da08ad9.png",
-    "static/media/Nitesh_Samaniya_Resume.pdf": "/static/media/Nitesh_Samaniya_Resume.c114f1c97f2f68b80d3c.pdf",
+    "static/media/Nitesh_Samaniya_Resume.pdf": "/static/media/Nitesh_Samaniya_Resume.fb7c90a57fe6af2320df.pdf",
     "static/media/3_job.png": "/static/media/3_job.0d9cbf60b90be5e93a2f.png",
     "static/media/4_login.png": "/static/media/4_login.64ff0960033abee789ec.png",
     "static/media/3_product_detail.png": "/static/media/3_product_detail.d6af3778ab4c8874e7ae.png",
@@ -29,10 +29,10 @@
     "static/media/typeScript.png": "/static/media/typeScript.c30f3f3610e109e285f1.png",
     "index.html": "/index.html",
     "main.31d86868.css.map": "/static/css/main.31d86868.css.map",
-    "main.00d05a11.js.map": "/static/js/main.00d05a11.js.map"
+    "main.2d5423e0.js.map": "/static/js/main.2d5423e0.js.map"
   },
   "entrypoints": [
     "static/css/main.31d86868.css",
-    "static/js/main.00d05a11.js"
+    "static/js/main.2d5423e0.js"
   ]
 }
