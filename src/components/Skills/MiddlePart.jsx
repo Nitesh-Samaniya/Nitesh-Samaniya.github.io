@@ -78,7 +78,7 @@ function MiddlePart() {
 
             <SimpleGrid columns={[1,1,2]} gap={'80px'}>
                 <Box>
-                    <Text mb={5} fontSize={['2xl','4xl']} textAlign={'center'} fontFamily={'cursive'}>FRONTEND SKILLS</Text>
+                    <Text mb={5} fontSize={['3xl','4xl']} textAlign={'center'} fontFamily={['heading','cursive']}>FRONTEND SKILLS</Text>
                     <SimpleGrid columns={[2,2,2,3]}>
                         {
                             frontEnd.map((el)=>(
@@ -92,7 +92,7 @@ function MiddlePart() {
                 </Box>
 
                 <Box>
-                    <Text mb={5} fontSize={['2xl','4xl']} textAlign={'center'} fontFamily={'cursive'}>BACKEND SKILLS</Text>
+                    <Text mb={5} fontSize={['2xl','4xl']} textAlign={'center'} fontFamily={['heading','cursive']}>BACKEND SKILLS</Text>
                     <SimpleGrid columns={[2,2,2,3]}>
                         {
                             backEnd.map((el)=>(

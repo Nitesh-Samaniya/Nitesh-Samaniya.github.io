@@ -25,20 +25,20 @@ function Project3() {
                 <Text textAlign={'center'} mt={'-20px'} fontSize={'20px'} fontWeight={'medium'}>Nykaa Website Clone</Text>
             </Box>
             <Box>
-                <Text fontSize={'25px'} fontFamily={'cursive'} fontWeight={'semibold'}>About Project</Text>
+                <Text fontSize={'25px'} fontFamily={['heading','cursive']} fontWeight={'semibold'}>About Project</Text>
                 <Text fontStyle={'oblique'} fontSize={'17px'} color={'gray'}>Nykaa is an Indian e-commerce company. It sells beauty, wellness and fashion products
                     across websites, mobile apps and 100+ offline stores.
                 </Text>
 
-                <Text mt={3} fontSize={'24px'} fontFamily={'cursive'} fontWeight={'semibold'}>Tech-Stack</Text>
+                <Text mt={3} fontSize={'24px'} fontFamily={['heading','cursive']} fontWeight={'semibold'}>Tech-Stack</Text>
                 <Text fontStyle={'oblique'} fontSize={'17px'} color={'gray'}>
                     REACT | REACT-ROUTER-DOM | CHAKRA UI | REACT-ICON | JSON-SERVER
                 </Text>
 
-                <Text mt={3} fontSize={'24px'} fontFamily={'cursive'} fontWeight={'semibold'}>Role</Text>
+                <Text mt={3} fontSize={'24px'} fontFamily={['heading','cursive']} fontWeight={'semibold'}>Role</Text>
                 <Text fontStyle={'oblique'} fontSize={'17px'} color={'gray'}>It was an individual project , whole website was built by me.</Text>
 
-                <Flex mt={3} gap={8}>
+                <Flex mt={3} gap={[3,8]}>
                     <Button colorScheme='teal' variant={'outline'} size='sm'>
                         <Link href='https://github.com/Nitesh-Samaniya/orange-holiday-5937' isExternal>Source Code</Link>
                     </Button>

@@ -48,7 +48,7 @@ function TechStack() {
 
   return (
     <Box w={'80%'} m={'auto'} pt={'80px'}>
-        <Text fontSize={['5xl','6xl']} textAlign={'center'} fontFamily={'cursive'}>TECH-STACK</Text>
+        <Text fontSize={['5xl','6xl']} textAlign={'center'} fontFamily={['heading','cursive']}>TECH-STACK</Text>
         
         <Box>
         
@@ -61,7 +61,7 @@ function TechStack() {
                                     transition={transition}
                                 >
                                     <Img src={el.img} w={'110px'} borderRadius={'50%'} alt="tech-icon"/>
-                                    <Text mt={3} ml={4} fontFamily={'fantasy'} fontSize={'xl'}>{el.title}</Text>
+                                    <Text mt={3} ml={4} fontFamily={'fantasy'} fontSize={['17px','xl']}>{el.title}</Text>
                                 </motion.div>
                             </Box>
                         ))

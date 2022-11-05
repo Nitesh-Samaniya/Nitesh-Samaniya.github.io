@@ -55,8 +55,8 @@ function Tools() {
       }, [])
 
   return (
-    <Box w={'75%'} m='auto'>
-        <Text mb={'40px'} fontSize={['2xl','4xl']} fontFamily={'cursive'}>TOOLS</Text>
+    <Box w={['85%','75%']} m='auto'>
+        <Text mb={'40px'} fontSize={'4xl'} textAlign={'center'} fontFamily={['heading','cursive']}>TOOLS</Text>
         {/* <div data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"> */}
@@ -67,7 +67,7 @@ function Tools() {
                         <div data-aos="zoom-in-up">
                             <Box ml={5} mt={5} mb={'40px'}>
                                 <Img src={el.img} w={'110px'} borderRadius={'50%'} alt="tech-icon"/>
-                                <Text mt={3} ml={6} fontFamily={'fantasy'} fontSize={'xl'}>{el.title}</Text>
+                                <Text mt={3} ml={6} fontFamily={'fantasy'} fontSize={['18px','xl']}>{el.title}</Text>
                             </Box>
                         </div>
                     ))

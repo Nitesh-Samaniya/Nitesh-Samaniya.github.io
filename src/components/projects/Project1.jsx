@@ -25,19 +25,19 @@ function Project1() {
             </Box>
 
             <Box>
-                <Text fontSize={'25px'} fontFamily={'cursive'} fontWeight={'semibold'}>About Project</Text>
+                <Text fontSize={'25px'} fontFamily={['heading','cursive']} fontWeight={'semibold'}>About Project</Text>
                 <Text fontStyle={'oblique'} fontSize={'17px'} color={'gray'}>
                     The comprehensive news portal covers all the latest developments on a real-time basis in the 
                     fields of politics, sports, business, lifestyle, entertainment and even local city issues, 
                     offering you a complete perspective of your world
                 </Text>
 
-                <Text mt={3} fontSize={'24px'} fontFamily={'cursive'} fontWeight={'semibold'}>Tech-Stack</Text>
+                <Text mt={3} fontSize={'24px'} fontFamily={['heading','cursive']} fontWeight={'semibold'}>Tech-Stack</Text>
                 <Text fontStyle={'oblique'} fontSize={'17px'} color={'gray'}>
                     REACT | REACT-ROUTER-DOM | CHAKRA UI | REACT-ICON | JSON-SERVER
                 </Text>
 
-                <Text mt={3} fontSize={'24px'} fontFamily={'cursive'} fontWeight={'semibold'}>Role</Text>
+                <Text mt={3} fontSize={'24px'} fontFamily={['heading','cursive']} fontWeight={'semibold'}>Role</Text>
                 <Text fontStyle={'oblique'} fontSize={'17px'} color={'gray'}>
                     It was an individual project, executed in 5 days.
                 </Text>
@@ -46,6 +46,9 @@ function Project1() {
                     <Button colorScheme='teal' variant={'outline'} size='sm'>
                         <Link href='https://github.com/Nitesh-Samaniya/gusty-train-2478' isExternal>Source Code</Link>
                     </Button>
+                    {/* <Button colorScheme='teal' variant={'outline'} size='sm'>
+                        <Link href='https://nykaa-project-silk.vercel.app' isExternal>Live</Link>
+                    </Button> */}
                     <Button colorScheme='teal' variant={'outline'} size='sm'>
                         <Link href='https://drive.google.com/file/d/1mb3JEDWppC-UEcvFv5hy2Qx5rxx8ajz5/view?usp=sharing' isExternal>Video Presentation</Link>
                     </Button>
