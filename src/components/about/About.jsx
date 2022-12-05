@@ -28,7 +28,7 @@ function Home() {
       <Box mt={[1,10,10,10]}>
         <Text color={'red'} fontFamily={'monospace'} fontSize={['2xl','3xl','3xl','3xl']}>Hi, I'm Nitesh Samaniya</Text>
         <Text mb={'30px'} fontFamily={'monospace'} fontSize={['23px','4xl','4xl','4xl']}>FULL STACK WEB DEVELOPER</Text>
-        <Text color={'gray'}>Frontend Developer with high level of problem solving skills. 
+        <Text color={'gray'}>Full Stack Web Developer with high level of problem solving skills. 
               I have experience of 1200+ hours of coding and solved 100+ DSA questions. 
               Frontend Developer with high level of problem solving skills.
         </Text>

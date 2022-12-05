@@ -11,6 +11,7 @@ import { useDisclosure ,DrawerBody,
 import React from 'react'
 import resume from "./Resume/Nitesh_Samaniya_Resume.pdf"
 import { Link } from "react-scroll"
+import { HamburgerIcon } from '@chakra-ui/icons'
 
 
 
@@ -21,9 +22,11 @@ const Drawerr = () => {
     
   return (
     <>
-    <Button ref={btnRef} colorScheme='teal' onClick={onOpen}>
+    {/* <Button ref={btnRef} colorScheme='teal' onClick={onOpen}>
       Open
-    </Button>
+    </Button> */}
+      <HamburgerIcon onClick={onOpen} ref={btnRef} w={6} h={6} mt={2}/>
+
     <Drawer
       isOpen={isOpen}
       placement='right'
