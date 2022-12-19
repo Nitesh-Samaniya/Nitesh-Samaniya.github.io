@@ -54,7 +54,7 @@ function Contact() {
   return (
     <>
     <Box w='90%' p='50px' name='Contact'>
-        <Text fontSize={['5xl','6xl']} textAlign={'center'} fontFamily={'cursive'}>CONTACT ME</Text>
+        <Text fontSize={['4xl','5xl','6xl']} textAlign={'center'} fontFamily={'cursive'}>CONTACT ME</Text>
         <SimpleGrid columns={[1,1,1,2]} gap={'80px'}>
             <Box>
                 <Img src={image} alt='image'/>
