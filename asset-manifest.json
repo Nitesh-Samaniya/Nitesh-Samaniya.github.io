@@ -1,35 +1,35 @@
 {
   "files": {
     "main.css": "/static/css/main.31d86868.css",
-    "main.js": "/static/js/main.a47fc24e.js",
+    "main.js": "/static/js/main.665434dd.js",
     "static/media/image.gif": "/static/media/image.d4a402f4b5da5590c675.gif",
-    "static/media/home.png": "/static/media/home.94a644aa3e29e545ebcc.png",
+    "static/media/home.png": "/static/media/home.1ca316adffb2de7d5eaa.png",
     "static/media/blossom_divHover.png": "/static/media/blossom_divHover.b47a24089e436b9cd59c.png",
-    "static/media/1_home.png": "/static/media/1_home.23ac9d0426ad6a1472c2.png",
-    "static/media/2_headlines.png": "/static/media/2_headlines.1cdf92157106a4a15a12.png",
+    "static/media/1_home.png": "/static/media/1_home.d9b7d0fc7612453820f7.png",
     "static/media/blossom_home.png": "/static/media/blossom_home.8e6acf36c13f5225a334.png",
     "static/media/blossom_specific.png": "/static/media/blossom_specific.b5b69352ed24c1e5e139.png",
     "static/media/blossom_home2.png": "/static/media/blossom_home2.eeb9c76544e9e53580a2.png",
     "static/media/blossom_static.png": "/static/media/blossom_static.a02b989e5bfdd3921e0e.png",
     "static/media/2_course.png": "/static/media/2_course.9503ae43ecca01fd68fd.png",
-    "static/media/3_newsRead.png": "/static/media/3_newsRead.a19915fa8a61aaaabf88.png",
     "static/media/home2.png": "/static/media/home2.5c3e38cee9c36663e22a.png",
     "static/media/5_contact.png": "/static/media/5_contact.64e459c09817e353b2c6.png",
     "static/media/blossom_product_page.png": "/static/media/blossom_product_page.8697be7db565c8980289.png",
     "static/media/2_product.png": "/static/media/2_product.41f4fb549d574da08ad9.png",
     "static/media/products.png": "/static/media/products.0c3a5c66ed3d9bec409d.png",
-    "static/media/Nitesh_Samaniya_Resume.pdf": "/static/media/Nitesh_Samaniya_Resume.ce673a9df1e35c37d128.pdf",
     "static/media/3_job.png": "/static/media/3_job.0d9cbf60b90be5e93a2f.png",
     "static/media/4_login.png": "/static/media/4_login.64ff0960033abee789ec.png",
     "static/media/blossom_orderPlaced.png": "/static/media/blossom_orderPlaced.32808ae01f79a7378658.png",
     "static/media/3_product_detail.png": "/static/media/3_product_detail.d6af3778ab4c8874e7ae.png",
-    "static/media/payment.png": "/static/media/payment.937592fdebe4aa653c5c.png",
+    "static/media/product.png": "/static/media/product.254c0ebd96e9a3f6198f.png",
+    "static/media/category.png": "/static/media/category.eb37921b078cd78cfda4.png",
+    "static/media/payment.png": "/static/media/payment.813f82c3244e78b5c8c3.png",
     "static/media/4_cart.png": "/static/media/4_cart.b2f1fc4ee83e474890ec.png",
     "static/media/profile.JPG": "/static/media/profile.2b444d964a03356c245e.JPG",
-    "static/media/4_footer.png": "/static/media/4_footer.03abfc9fe0c2c6de1ab4.png",
+    "static/media/checkout.png": "/static/media/checkout.80e9ca5261fa16efb0e9.png",
     "static/media/cart.png": "/static/media/cart.75cc99e0a05d6758e4c2.png",
     "static/media/nodejs.jpg": "/static/media/nodejs.d014a8eebcc3ed0c454e.jpg",
     "static/media/blossom_loading.png": "/static/media/blossom_loading.87581ff9f49d8039eb32.png",
+    "static/media/addProduct.png": "/static/media/addProduct.589f12f20f47b392e819.png",
     "static/media/blossom_checkout.png": "/static/media/blossom_checkout.0e2320ae63dd85e3ef89.png",
     "static/media/redux.jpg": "/static/media/redux.393c075e2970664559aa.jpg",
     "static/media/billing.png": "/static/media/billing.c5a8ee3a26dbfa23219e.png",
@@ -44,10 +44,10 @@
     "static/media/typeScript.png": "/static/media/typeScript.c30f3f3610e109e285f1.png",
     "index.html": "/index.html",
     "main.31d86868.css.map": "/static/css/main.31d86868.css.map",
-    "main.a47fc24e.js.map": "/static/js/main.a47fc24e.js.map"
+    "main.665434dd.js.map": "/static/js/main.665434dd.js.map"
   },
   "entrypoints": [
     "static/css/main.31d86868.css",
-    "static/js/main.a47fc24e.js"
+    "static/js/main.665434dd.js"
   ]
 }
