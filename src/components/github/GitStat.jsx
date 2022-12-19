@@ -5,10 +5,17 @@ import GitHubCalendar from 'react-github-calendar'
 function GitStat() {
   return (
     <Box bg="#0c111b" color={'#fff'} pt={'30px'} pb={'50px'}>
+
+      <Text mb={'40px'} fontSize={['5xl','6xl']} textAlign={'center'} fontFamily={'cursive'}>GITHUB CALENDAR</Text>
+
+      <Box  width={['95%','80%','65%']} m='auto' mb={'50px'} mt={'80px'}>
+        <GitHubCalendar username="Nitesh-Samaniya"  />
+      </Box>
+      
     <Text mb={'40px'} fontSize={['5xl','6xl']} textAlign={'center'} fontFamily={'cursive'}>GITHUB STATS</Text>
-    <Box  width={['95%','80%','65%']} m='auto' mb={'50px'} mt={'80px'}>
+    {/* <Box  width={['95%','80%','65%']} m='auto' mb={'50px'} mt={'80px'}>
     <GitHubCalendar username="Nitesh-Samaniya"  />
-    </Box>
+    </Box> */}
     {/* <Flex width={"90%"} >
         
          
@@ -26,7 +33,11 @@ function GitStat() {
     <Image src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nitesh-Samaniya&include_all_commits=false&count_private=true&layout=compact" ></Image>
     </Box>
     </SimpleGrid>
+
+    
+
     </Box>
+    
   )
 }
 

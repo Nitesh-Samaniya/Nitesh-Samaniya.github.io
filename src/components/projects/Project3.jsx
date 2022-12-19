@@ -18,8 +18,8 @@ function Project3() {
         <SimpleGrid mb={10} boxShadow='inner' p='6' rounded='md' bg='white' columns={[1,1,1,2]} w="100%"  gap={10}>
             <Box>
                 <Carousel autoPlay infiniteLoop>
-                    {slides.map((slide) => {
-                        return <Image src={slide} height="auto" width="800px" />;
+                    {slides.map((slide, i) => {
+                        return <Image key={i} src={slide} height="auto" width="800px" />;
                     })}
                 </Carousel>
                 <Text textAlign={'center'} mt={'-20px'} fontSize={'20px'} fontWeight={'medium'}>Nykaa Website Clone</Text>

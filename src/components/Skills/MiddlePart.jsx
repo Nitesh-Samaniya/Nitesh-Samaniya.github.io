@@ -81,8 +81,8 @@ function MiddlePart() {
                     <Text mb={5} fontSize={['3xl','4xl']} textAlign={'center'} fontFamily={['heading','cursive']}>FRONTEND SKILLS</Text>
                     <SimpleGrid columns={[2,2,2,3]}>
                         {
-                            frontEnd.map((el)=>(
-                                <Box ml={5} mt={5} mb={'80px'}>
+                            frontEnd.map((el,i)=>(
+                                <Box ml={5} mt={5} mb={'80px'} key={i}>
                                     <Img src={el.img} w={'100px'} borderRadius={'50%'} alt="tech-icon"/>
                                     <Text mt={3} ml={4} fontFamily={'fantasy'} fontSize={'xl'}>{el.title}</Text>
                                 </Box>
@@ -95,8 +95,8 @@ function MiddlePart() {
                     <Text mb={5} fontSize={['2xl','4xl']} textAlign={'center'} fontFamily={['heading','cursive']}>BACKEND SKILLS</Text>
                     <SimpleGrid columns={[2,2,2,3]}>
                         {
-                            backEnd.map((el)=>(
-                                <Box ml={5} mt={5} mb={'80px'}>
+                            backEnd.map((el,i)=>(
+                                <Box ml={5} mt={5} mb={'80px'} key={i}>
                                     <Img src={el.img} w={'100px'} borderRadius={'50%'} alt="tech-icon"/>
                                     <Text mt={3} ml={4} fontFamily={'fantasy'} fontSize={'xl'}>{el.title}</Text>
                                 </Box>

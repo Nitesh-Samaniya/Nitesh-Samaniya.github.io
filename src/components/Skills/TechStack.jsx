@@ -54,8 +54,8 @@ function TechStack() {
         
                 <SimpleGrid columns={[2,2,3,5]} gap={6}>
                     {
-                        tech.map((el)=> (
-                            <Box ml={5} mt={5} mb={'80px'}>
+                        tech.map((el,i)=> (
+                            <Box ml={5} mt={5} mb={'80px'} key={i}>
                                 <motion.div
                                     whileHover={{ scale: 1.2 }}
                                     transition={transition}

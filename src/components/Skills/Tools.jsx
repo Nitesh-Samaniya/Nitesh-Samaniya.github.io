@@ -63,8 +63,8 @@ function Tools() {
 
             <SimpleGrid columns={[2,2,3,4]} gap={10}>
                 {
-                    tools.map((el)=> (
-                        <div data-aos="zoom-in-up">
+                    tools.map((el, i)=> (
+                        <div data-aos="zoom-in-up" key={i}>
                             <Box ml={5} mt={5} mb={'40px'}>
                                 <Img src={el.img} w={'110px'} borderRadius={'50%'} alt="tech-icon"/>
                                 <Text mt={3} ml={6} fontFamily={'fantasy'} fontSize={['18px','xl']}>{el.title}</Text>

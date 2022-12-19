@@ -23,8 +23,8 @@ function Project5() {
 
             <Box>
                 <Carousel autoPlay infiniteLoop>
-                    {slides.map((slide) => {
-                        return <Image src={slide} height="auto" width="800px" />;
+                    {slides.map((slide, i) => {
+                        return <Image key={i} src={slide} height="auto" width="800px" />;
                     })}
                 </Carousel>
                 <Text textAlign={'center'} mt={'-20px'} fontSize={'20px'} fontWeight={'medium'}>SkinStore Website Clone</Text>
@@ -48,7 +48,8 @@ function Project5() {
 
                 <Text mt={3} fontSize={'24px'} fontFamily={['heading','cursive']} fontWeight={'semibold'}>Role</Text>
                 <Text fontStyle={'oblique'} fontSize={'17px'} color={'gray'}>
-                    It was an individual project, executed in 5 days.
+                A collaborative project built by a team of 4, 
+                    executed in 5 days. I built full backend.
                 </Text>
 
                 <Flex mt={3} gap={[3,8]}>

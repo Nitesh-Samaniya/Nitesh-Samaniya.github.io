@@ -13,8 +13,8 @@ function Hours() {
     <Box w={'100%'} bg="#0c111b" p={10}>
         <SimpleGrid columns={[1,2,2,4]} gap={6} w={['70%','85%']} m='auto'>
             {
-                detail.map((el)=>(
-                    <Box bg={'white'} borderRadius={'30%'} textAlign={'center'} p={5}>
+                detail.map((el,i)=>(
+                    <Box key={i} bg={'white'} borderRadius={'30%'} textAlign={'center'} p={5}>
                         <Text ml={2} color={'red'} fontSize={'4xl'}>{el.hour}</Text>
                         <Text color={'teal'} fontFamily={'cursive'} fontSize={'23px'}>{el.title}</Text>
                     </Box>

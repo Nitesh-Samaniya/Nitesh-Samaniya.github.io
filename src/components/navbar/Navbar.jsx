@@ -3,7 +3,7 @@ import { Box, Button,Show, Hide,
    } from '@chakra-ui/react'
 import Drawerr from './Drawer'
 import { Link } from "react-scroll"
-import resume from "./Resume/Nitesh_Samaniya_Resume.pdf"
+// import resume from "./Resume/Nitesh-Samaniya-Resume.pdf"
 //w={["10%",'80%']}
 
 function Navbar() {
@@ -19,7 +19,9 @@ function Navbar() {
                         <Box cursor={'pointer'}><Link to='Skill' spy={true} smooth={true}>Skills</Link></Box>
                         <Box cursor={'pointer'}><Link to='Project' spy={true} smooth={true}>Projects</Link></Box>
                         <Box cursor={'pointer'}><Link to='Contact' spy={true} smooth={true}>Contact</Link></Box>
-                        <Box><a href={resume} download><Button colorScheme='teal' size='xs'>Resume</Button></a></Box>
+                        <Box>
+                          <a href="https://drive.google.com/file/d/19h3iG7MlyhTYLzZhXyJJhmCph-KVhWC9/view?usp=sharing" rel="noreferrer"  target="_blank"><Button colorScheme='teal' size='xs'>Resume</Button></a>
+                        </Box>
                     </Box>
                 </Hide>
                 <Show  below='md'>

@@ -18,8 +18,8 @@ function Project2() {
 
             <Box>
                 <Carousel autoPlay infiniteLoop>
-                    {slides.map((slide) => {
-                        return <Image src={slide} height="auto" width="800px" />;
+                    {slides.map((slide, i) => {
+                        return <Image key={i} src={slide} height="auto" width="800px" />;
                     })}
                 </Carousel>
                 <Text textAlign={'center'} mt={'-20px'} fontSize={'20px'} fontWeight={'medium'}>Inter Theory Website Clone</Text>
