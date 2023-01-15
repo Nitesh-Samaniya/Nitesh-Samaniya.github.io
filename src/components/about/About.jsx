@@ -1,6 +1,6 @@
 import { Box, Image, SimpleGrid, Text, Button } from '@chakra-ui/react'
 // import profile from "./Images/profile8.jpg"
-import profile from "./Images/profile.JPG"
+import profile from "./Images/profile3.JPG"
 // import resume from "../navbar/Resume/Nitesh-Samaniya-Resume.pdf"
 
 
@@ -28,9 +28,10 @@ function Home() {
       <Box mt={[1,10,10,10]}>
         <Text color={'red'} fontFamily={'monospace'} fontSize={['2xl','3xl','3xl','3xl']}>Hi, I'm Nitesh Samaniya</Text>
         <Text mb={'30px'} fontFamily={'monospace'} fontSize={['23px','4xl','4xl','4xl']}>FULL STACK WEB DEVELOPER</Text>
-        <Text color={'gray'}>Full Stack Web Developer with high level of problem solving skills. 
-              I have experience of 1200+ hours of coding and solved 100+ DSA questions. 
-              Frontend Developer with high level of problem solving skills.
+        <Text color={'gray'}>Aspiring full-stack developer with a specialization in MERN
+          stack with 1200+ hours of coding, solved 250+ DSA questions,
+          with good problem-solving skills. Seeking to further improve
+          my skills as the company's future full-stack web developer.
         </Text>
         <Box>
             <a href="https://drive.google.com/uc?id=19h3iG7MlyhTYLzZhXyJJhmCph-KVhWC9&export=download" download><Button colorScheme='teal' size='md' mt={5}>Download Resume</Button></a>

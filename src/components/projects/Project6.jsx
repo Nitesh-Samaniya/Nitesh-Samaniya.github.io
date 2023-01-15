@@ -55,9 +55,9 @@ function Project6() {
                     <Button colorScheme='teal' variant={'outline'} size='sm'>
                         <Link href='https://glamour-ashy.vercel.app/' isExternal>Live</Link>
                     </Button>
-                    <Button colorScheme='teal' variant={'outline'} size='sm'>
+                    {/* <Button colorScheme='teal' variant={'outline'} size='sm'>
                         <Link href='https://drive.google.com/file/d/1w4-yzGhrdenoP8VAc9yWG7c7IyGWQeEb/view' isExternal>Video Presentation</Link>
-                    </Button>
+                    </Button> */}
                 </Flex>
             </Box>
         </SimpleGrid>

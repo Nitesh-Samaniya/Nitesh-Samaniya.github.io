@@ -49,9 +49,9 @@ function Project1() {
                     <Button colorScheme='teal' variant={'outline'} size='sm'>
                         <Link href='https://hindustantimes.vercel.app/' isExternal>Live</Link>
                     </Button>
-                    <Button colorScheme='teal' variant={'outline'} size='sm'>
+                    {/* <Button colorScheme='teal' variant={'outline'} size='sm'>
                         <Link href='https://drive.google.com/file/d/1mb3JEDWppC-UEcvFv5hy2Qx5rxx8ajz5/view?usp=sharing' isExternal>Video Presentation</Link>
-                    </Button>
+                    </Button> */}
                 </Flex>
 
             </Box>

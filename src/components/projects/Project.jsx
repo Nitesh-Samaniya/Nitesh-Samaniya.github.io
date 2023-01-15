@@ -1,7 +1,7 @@
 import { Box, Text } from '@chakra-ui/react'
 import React from 'react'
 // import Project1 from './Project1'
-import Project2 from './Project2'
+// import Project2 from './Project2'
 import Project3 from './Project3'
 import Project4 from './project4'
 import Project5 from './project5'
@@ -16,7 +16,7 @@ function Project() {
             <Project5 />
             <Project3 />
             {/* <Project1 /> */}
-            <Project2 />
+            {/* <Project2 /> */}
             <Project4 />
         </Box>
     </Box>

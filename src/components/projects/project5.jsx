@@ -59,9 +59,9 @@ function Project5() {
                     <Button colorScheme='teal' variant={'outline'} size='sm'>
                         <Link href='https://blossom-two.vercel.app/' isExternal>Live</Link>
                     </Button>
-                    <Button colorScheme='teal' variant={'outline'} size='sm'>
+                    {/* <Button colorScheme='teal' variant={'outline'} size='sm'>
                         <Link href='https://drive.google.com/file/d/128jVVwKv2TntuZ8ulj2n_6N74kg6HkAO/view?usp=sharing' isExternal>Video Presentation</Link>
-                    </Button>
+                    </Button> */}
                 </Flex>
 
             </Box>

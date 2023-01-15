@@ -45,9 +45,9 @@ function Project3() {
                     <Button colorScheme='teal' variant={'outline'} size='sm'>
                         <Link href='https://nykaa-project-silk.vercel.app' isExternal>Live</Link>
                     </Button>
-                    <Button colorScheme='teal' variant={'outline'} size='sm'>
+                    {/* <Button colorScheme='teal' variant={'outline'} size='sm'>
                         <Link href='https://drive.google.com/file/d/1e1vquGV-Ja-AbceNaMH_mB5-tn7NJqLU/view?usp=sharing' isExternal>Video Presentation</Link>
-                    </Button>
+                    </Button> */}
                 </Flex>
             </Box>
         </SimpleGrid>

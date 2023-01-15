@@ -51,9 +51,9 @@ function Project4() {
                     <Button colorScheme='teal' variant={'outline'} size='sm'>
                         <Link href='https://imaginative-centaur-1ce704.netlify.app/' isExternal>Live</Link>
                     </Button>
-                    <Button colorScheme='teal' variant={'outline'} size='sm'>
+                    {/* <Button colorScheme='teal' variant={'outline'} size='sm'>
                         <Link href='https://drive.google.com/file/d/1_SWbIPfU0rJ6PIqu1VdDxnoTDTD92YPx/view?usp=sharing' isExternal>Video Presentation</Link>
-                    </Button>
+                    </Button> */}
                 </Flex>
             </Box>
         </SimpleGrid>
