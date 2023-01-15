@@ -1,30 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.31d86868.css",
-    "main.js": "/static/js/main.d51398d0.js",
+    "main.js": "/static/js/main.bcd7fb07.js",
     "static/media/image.gif": "/static/media/image.d4a402f4b5da5590c675.gif",
     "static/media/home.png": "/static/media/home.1ca316adffb2de7d5eaa.png",
     "static/media/blossom_divHover.png": "/static/media/blossom_divHover.b47a24089e436b9cd59c.png",
-    "static/media/1_home.png": "/static/media/1_home.d9b7d0fc7612453820f7.png",
     "static/media/blossom_home.png": "/static/media/blossom_home.8e6acf36c13f5225a334.png",
+    "static/media/1_home.png": "/static/media/1_home.d9b7d0fc7612453820f7.png",
     "static/media/blossom_specific.png": "/static/media/blossom_specific.b5b69352ed24c1e5e139.png",
     "static/media/blossom_home2.png": "/static/media/blossom_home2.eeb9c76544e9e53580a2.png",
     "static/media/blossom_static.png": "/static/media/blossom_static.a02b989e5bfdd3921e0e.png",
-    "static/media/2_course.png": "/static/media/2_course.9503ae43ecca01fd68fd.png",
     "static/media/home2.png": "/static/media/home2.5c3e38cee9c36663e22a.png",
-    "static/media/5_contact.png": "/static/media/5_contact.64e459c09817e353b2c6.png",
     "static/media/blossom_product_page.png": "/static/media/blossom_product_page.8697be7db565c8980289.png",
     "static/media/2_product.png": "/static/media/2_product.41f4fb549d574da08ad9.png",
     "static/media/products.png": "/static/media/products.0c3a5c66ed3d9bec409d.png",
-    "static/media/3_job.png": "/static/media/3_job.0d9cbf60b90be5e93a2f.png",
-    "static/media/4_login.png": "/static/media/4_login.64ff0960033abee789ec.png",
     "static/media/blossom_orderPlaced.png": "/static/media/blossom_orderPlaced.32808ae01f79a7378658.png",
     "static/media/3_product_detail.png": "/static/media/3_product_detail.d6af3778ab4c8874e7ae.png",
     "static/media/product.png": "/static/media/product.254c0ebd96e9a3f6198f.png",
     "static/media/category.png": "/static/media/category.eb37921b078cd78cfda4.png",
     "static/media/payment.png": "/static/media/payment.813f82c3244e78b5c8c3.png",
     "static/media/4_cart.png": "/static/media/4_cart.b2f1fc4ee83e474890ec.png",
-    "static/media/profile.JPG": "/static/media/profile.2b444d964a03356c245e.JPG",
     "static/media/checkout.png": "/static/media/checkout.80e9ca5261fa16efb0e9.png",
     "static/media/cart.png": "/static/media/cart.75cc99e0a05d6758e4c2.png",
     "static/media/nodejs.jpg": "/static/media/nodejs.d014a8eebcc3ed0c454e.jpg",
@@ -34,6 +29,7 @@
     "static/media/redux.jpg": "/static/media/redux.393c075e2970664559aa.jpg",
     "static/media/billing.png": "/static/media/billing.c5a8ee3a26dbfa23219e.png",
     "static/media/dsa.jpg": "/static/media/dsa.5275c4a09c53acc8fa8b.jpg",
+    "static/media/profile3.JPG": "/static/media/profile3.5bce64372c236fa6bc0b.JPG",
     "static/media/javascript.jpg": "/static/media/javascript.2a1410b38a792b28dbc2.jpg",
     "static/media/react.png": "/static/media/react.9911848e6c15b84c4b0c.png",
     "static/media/mongodb.png": "/static/media/mongodb.ac47c497a10891dc7bed.png",
@@ -44,10 +40,10 @@
     "static/media/typeScript.png": "/static/media/typeScript.c30f3f3610e109e285f1.png",
     "index.html": "/index.html",
     "main.31d86868.css.map": "/static/css/main.31d86868.css.map",
-    "main.d51398d0.js.map": "/static/js/main.d51398d0.js.map"
+    "main.bcd7fb07.js.map": "/static/js/main.bcd7fb07.js.map"
   },
   "entrypoints": [
     "static/css/main.31d86868.css",
-    "static/js/main.d51398d0.js"
+    "static/js/main.bcd7fb07.js"
   ]
 }
