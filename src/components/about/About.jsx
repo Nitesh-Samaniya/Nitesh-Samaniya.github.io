@@ -11,7 +11,7 @@ function Home() {
   return (
     <>
     
-    <Box name="About" w={"100%"} bg="#0c111b" color={'#fff'} mt={'70px'} pt={'70px'} pb={'100px'}>
+    <Box name="About" w={"100%"} bg="#0c111b" color={'#fff'} mt={'70px'} pt={'70px'} pb={'100px'} pl={['10px','0px']}>
 
     <SimpleGrid columns={[1,1,1,2]} w={['95%','90%','90%','90%']} m="auto">
 
@@ -28,11 +28,11 @@ function Home() {
       <Box mt={[1,10,10,10]}>
         <Text color={'red'} fontFamily={'monospace'} fontSize={['2xl','3xl','3xl','3xl']}>Hi, I'm Nitesh Samaniya</Text>
         <Text mb={'30px'} fontFamily={'monospace'} fontSize={['23px','4xl','4xl','4xl']}>FULL STACK WEB DEVELOPER</Text>
-        <Text color={'gray'}>Aspiring full-stack developer with a specialization in MERN
-          stack with 1200+ hours of coding, solved 250+ DSA questions,
-          with good problem-solving skills. Seeking to further improve
-          my skills as the company's future full-stack web developer.
-        </Text>
+            <Text color={'gray'}>Experienced full-stack web developer with a
+              specialization in MERN stack with 9+ months of
+              experience, solved 250+ DSA questions, with good
+              problem-solving skills.
+            </Text>
         <Box>
             <a href="https://drive.google.com/uc?id=19h3iG7MlyhTYLzZhXyJJhmCph-KVhWC9&export=download" download><Button colorScheme='teal' size='md' mt={5}>Download Resume</Button></a>
         </Box>
