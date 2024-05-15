@@ -14,7 +14,7 @@ function Project() {
         <Box w={'95%'} m={'auto'}> 
             <Project6 />
             <Project5 />
-            <Project3 />
+            {/* <Project3 /> */}
             {/* <Project1 /> */}
             {/* <Project2 /> */}
             {/* <Project4 /> */}
