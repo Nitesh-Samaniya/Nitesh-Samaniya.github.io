@@ -95,11 +95,11 @@ function Contact() {
         <Text mt={1}><AiOutlineMail /></Text>
         <Link href='nitinsamaniya97@gmail.com'>nitinsamaniya97@gmail.com</Link>
     </Flex>
-
+{/* 
     <Flex gap={2}  alignItems="center">
         <Text mt={1}><AiOutlineMobile /></Text>
         <Link href="tel:8700712372">+91 8700712372</Link>
-    </Flex>
+    </Flex> */}
 
     <Flex gap={2}  alignItems="center">
         <Text mt={1}><AiFillGithub /></Text>

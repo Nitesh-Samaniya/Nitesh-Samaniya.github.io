@@ -19,9 +19,9 @@ function Navbar() {
                         <Box cursor={'pointer'}><Link to='Skill' spy={true} smooth={true}>Skills</Link></Box>
                         <Box cursor={'pointer'}><Link to='Project' spy={true} smooth={true}>Projects</Link></Box>
                         <Box cursor={'pointer'}><Link to='Contact' spy={true} smooth={true}>Contact</Link></Box>
-                        <Box>
+                        {/* <Box>
                           <a href="https://drive.google.com/file/d/19h3iG7MlyhTYLzZhXyJJhmCph-KVhWC9/view?usp=sharing" rel="noreferrer"  target="_blank"><Button colorScheme='teal' size='xs'>Resume</Button></a>
-                        </Box>
+                        </Box> */}
                     </Box>
                 </Hide>
                 <Show  below='md'>

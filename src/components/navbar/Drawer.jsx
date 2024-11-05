@@ -49,7 +49,7 @@ const Drawerr = () => {
           {/* <Button variant='outline' mr={3} onClick={onClose}>
             Cancel
           </Button> */}
-          <a href="https://drive.google.com/uc?id=19h3iG7MlyhTYLzZhXyJJhmCph-KVhWC9&export=download" download><Button colorScheme='teal'>Resume</Button></a>
+          {/* <a href="https://drive.google.com/uc?id=19h3iG7MlyhTYLzZhXyJJhmCph-KVhWC9&export=download" download><Button colorScheme='teal'>Resume</Button></a> */}
         </DrawerFooter>
       </DrawerContent>
     </Drawer>
