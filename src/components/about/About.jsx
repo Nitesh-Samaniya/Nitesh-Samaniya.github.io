@@ -34,7 +34,7 @@ function Home() {
               problem-solving skills.
             </Text>
         <Box>
-            <a href="https://drive.google.com/uc?id=19h3iG7MlyhTYLzZhXyJJhmCph-KVhWC9&export=download" download><Button colorScheme='teal' size='md' mt={5}>Download Resume</Button></a>
+            {/* <a href="https://drive.google.com/uc?id=19h3iG7MlyhTYLzZhXyJJhmCph-KVhWC9&export=download" download><Button colorScheme='teal' size='md' mt={5}>Download Resume</Button></a> */}
         </Box>
       </Box>
 
